@@ -35,7 +35,7 @@
 
 
                     <li class="nav-item dropdown">
-                        <a aria-expanded="false" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown"
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
                            href="#"
                            id="navbarDropdownMenuLink" role="button">
                             History
@@ -47,6 +47,22 @@
                             <li><a class="dropdown-item" href="search.html">Search Engines</a></li>
                             <li><a class="dropdown-item" href="thedotbubble.html">The Dot com bubble</a></li>
 
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown"
+                           href="#"
+                           id="navbarDropdownMenuLink" role="button">
+                            How it Works
+                        </a>
+                        <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="how-domain.html">Domain Names & ICANN</a></li>
+                            <li><a class="dropdown-item" href="how-iprouting.html">IP Addresses, Packets, and
+                                Routing</a></li>
+                            <li><a class="dropdown-item" href="how-dns.html">DNS - Making Life Simpler</a></li>
+                            <li><a class="dropdown-item" href="how-protocols.html">HTTP and HTTPS Protocols</a></li>
+                            <li><a class="dropdown-item" href="how-w3c.html">W3C, HTML, and CSS</a></li>
 
                         </ul>
                     </li>
@@ -60,37 +76,39 @@
 
 
     <div class="container bg-light">
-        <h1 class="text-danger">The Bubble</h1>
+        <h1 class="text-danger">HTTP and HTTPS Protocols</h1>
 
         <hr>
         <div class="row">
-            <h4>Shopping online</h4>
+            <h4>HTTP (Hypertext Transfer Protocol)</h4>
             <div class="col-sm-4">
                 <img class="card-img-top"
-                     src="imgs/ecommerce.jpg"
-                     alt="credit card">
+                     src="https://source.unsplash.com/DoWZMPZ-M9s/"
+                     alt="encrypted">
 
             </div>
             <div class="col-sm-8">
                 <ul>
 
-                    <li> E-commerce refers to the buying and selling of products on online services over the Internet.
-                        During the 1990s, companies started to use the World Wide Web as a means of conducting business.
-                        This was a revolutionary change in the way businesses were conducted and had a significant
-                        impact on the way the economy operated.
+                    <li>HTTP is an acronym for Hypertext Transfer Protocol. In laymen terms, HTTP can be thought of as
+                        the language used to communicate between web browsers and servers.
                     </li>
                     <br>
-                    <li> Two notable companies that started doing e-commerce during the 1990s were Amazon and Ebay. Jeff
-                        Bezos had analytical experience from his time on Wall Street and he used this knowledge to start
-                        his company online Amazon in the summer of 1995. Bezos reasoned that e-commerce allowed for a
-                        bookstore with millions of titles, which is impossible in a physical setting. Around the same
-                        time, Pierre Omidyar, who was an idealistic software programmer at the time, had an interesting
-                        idea that would eventually become what is known as Ebay. Like Jeff Bezos, Pierre Omidyar thought
-                        of the web as a place to conduct business. Despite this similarity, these two were quite
-                        different. Jeff Bezos focused his business plan heavily on market research and methodical
-                        analysis. Pierre Omidar, however, did not have a business plan or any market research and he was
-                        simply a humble software coder who thought that the idea of making an online auction site
-                        sounded pretty cool.
+                    <li>How do computers communicate with each other? When we use web browser, we often type in a web
+                        address in a URL, or Uniform Resource Locator. After we press enter for the web address we just
+                        entered in the URL, our computer starts to communicate with another computer called server in a
+                        language called HTTP, or Hypertext Transfer Protocol. HTTP can be commonly thought of as the
+                        language used to communicate between web browsers and servers.
+                    </li>
+                    <br>
+                    <li>HTTP works by using GET requests. Web browsers will use HTTP to send a GET request to a server.
+                        For example, if we want to load the home page for a certain website, we are sending a GET
+                        request to the website’s server for the HTML code of the website’s homepage. HTML stands for
+                        Hyper Text Markup Language and is responsible for a website’s appearance. HTML determines things
+                        such as the text, images, and structure of the website. Images and videos, however, are not
+                        directly included in the HTML text and require separate GET requests in order to be displayed on
+                        the webpage. When we send data to websites, such as by logging into a certain website, we are
+                        using HTTP to send a POST request to the website’s server.
                     </li>
 
                 </ul>
@@ -98,36 +116,26 @@
         </div>
         <hr>
         <div class="row">
-            <h4>Extreme Growth</h4>
+            <h4>HTTPS (Hypertext Transfer Protocol Secure)</h4>
             <div class="col-sm-4">
                 <img class="card-img-top"
-                     src="https://source.unsplash.com/PJYOpJCcbRg/"
-                     alt="Stocks">
+                     src="https://source.unsplash.com/UAElX0OkC2g/"
+                     alt="encrypted">
             </div>
             <div class="col-sm-8">
 
                 <ul>
 
-                    <li>These two companies immediately saw some measure of success after launching. P ierre Omidar was
-                        earning thousands of dollars in fees within the first thirty days. Within months, Amazon had
-                        shipped books to 45 different countries and all 50 US states. In fact, Amazon had to discard
-                        their original business plan which considered slow growth and “replant everything because the
-                        early customers were really taking onto the service very quickly.”
+                    <li>HTTPS stands for Hypertext Transfer Protocol Secure and is a more secure version of HTTP.
+                        Because information is sent in plain text over the Internet, our confidential data is vulnerable
+                        to hackers. Safe websites, however, use HTTPS, which asks our web browser to communicate on a
+                        secure channel using Secure Sockets Layer (SSL) and Transport Layer Security (TLS) to provide
+                        security for our information and data. SSL and TLS are active when there is a lock icon next to
+                        the “https” part of the URL. Furthermore, digital certificates are issued by trusted entities
+                        that verify the identities of websites. If a website does not have a proper digital certificate,
+                        the web browser will warn the user.
                     </li>
-                    <br>
-                    <li>The success of these two companies and how fast the web was spreading were soon noticed on Wall
-                        Street. To take into account the speed of internet growth, it took 38 years before 50 million
-                        people were using radio after it was invented. With television, it took 13 years. However, once
-                        the Internet was opened up to the general public, it took just 4 years before it had 50 million
-                        users. The growth of the Internet can be attributed to Moore’s Law, which states that the speed
-                        and power of integrated circuits from microprocessors to memory chips doubles every 18 months.
-                        This allows for exponential growth in technology and it explains why our computers are no longer
-                        the size of entire rooms. Another important law that played an important role in the Internet
-                        exponential growth was known as Metcalfe’s law. Metcalfe’s law states that every new user
-                        increases the Internet’s usefulness dramatically. For example, between a hundred users there
-                        would be almost 5,000 possible pairs of users. As the number of users increase, the possible
-                        number of connections grows exponentially.
-                    </li>
+
 
 
                 </ul>
@@ -138,48 +146,6 @@
 
         </div>
 
-
-        <hr>
-        <div class="row">
-            <h4>Bubble Bursts</h4>
-            <div class="col-sm-4">
-                <img class="card-img-top"
-                     src="https://source.unsplash.com/N__BnvQ_w18/"
-                     alt="Stocks">
-            </div>
-            <div class="col-sm-8">
-
-                <ul>
-
-                    <li>The success of Amazon and Ebay inspired legions of imitators across the country. Soon, ecommerce
-                        was considered the new Gold Rush and new ecommerce websites soon flooded the market. With these
-                        new businesses also came new expectations from investors on Wall Street. E-commerce seemed like
-                        the next big thing and Wall Street made sure to back many of these newly made Internet
-                        companies. However, unlike Amazon and Ebay, these new companies lacked any real or successful
-                        business model. They were not successful despite having expensively designed websites. Many
-                        investors knew this, but they still invested in these companies in the off chance that one of
-                        these companies became successful. Eventually, all the growth caused by the speculation of
-                        Internet companies crashed in what is known as the Dot Com Bubble. The Dot Com bubble crash of
-                        2000 and 2001 saw around $3.5 trillion of paper wealth disappear. This led to the Nasdaq to lose
-                        more than two-thirds of its value.
-                    </li>
-                    <br>
-                    <li>False speculations caused a lot of people to lose a lot of money. As a result, New York’s
-                        Attorney General Eliot Spitzer “launched a crusade to reform the IPO industry and punish its
-                        post villains.” His most famous target was Martha Steward. Coming in second was Henry Blodgett,
-                        who in his emails admitted that many ecommerce companies were garbage but still encouraged
-                        people to invest in them. However, although many companies failed, the few companies that were
-                        successful ultimately transformed the economy.
-                    </li>
-
-
-                </ul>
-
-
-            </div>
-
-
-        </div>
 
 
         <br><br>
