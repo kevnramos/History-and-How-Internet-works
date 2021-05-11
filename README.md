@@ -9,4 +9,4 @@ This website was designed as a final project for the course: Introduction to Web
 
 [Website hosted on github](https://kevnramos.github.io/History-and-How-Internet-works/)
 
-Website design PDF:
+Website design PDF: [PDF](https://kevnramos.github.io/History-and-How-Internet-works/imgs/History%20of%20internet%20and%20how%20it%20works%20combined%20site.pdf)
